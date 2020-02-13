@@ -6,3 +6,10 @@
     width: 100%;
     height: 600px;
 }
+.bigText{
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
