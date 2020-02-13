@@ -1,4 +1,4 @@
 # Test ReadMe
 
-accesing: 
+accesing:
 https://judegiordano.github.io/judegiordano.github.io/subDirTest/main.md
