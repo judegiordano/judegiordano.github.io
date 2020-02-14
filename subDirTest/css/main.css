@@ -2,7 +2,9 @@ body {
   background-color: #f5f5f5;
   margin: 0;
   padding: 0;
+  transition: all ease-in-out 250ms;
 }
+
 .main {
   margin: auto;
   width: 80%;
@@ -14,13 +16,17 @@ body {
 }
 
 .bigText {
+  color: black;
   text-align: center;
   font-family: monospace;
   /* font-family: 'Russo One', sans-serif; */
   font-family: "Armata", sans-serif;
   font-size: 25px;
   padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin: 0;
+  transition: all ease-in-out 250ms;
 }
 
 .card {
@@ -39,6 +45,7 @@ body {
   box-shadow: 0px 0px 3px 2px lightgrey;
   border-radius: 10px;
   transition: all ease-in-out 250ms;
+  max-width: 1000px;
 }
 
 .card-content:hover {
@@ -46,7 +53,27 @@ body {
 }
 
 .profilePic {
-  width: 150px;
+  padding: 20px;
   height: 150px;
   border-radius: 100%;
+}
+.content-text-1, .content-text-2 {
+  padding: 20px;
+  margin: 0;
+  transition: all ease-in-out 250ms;
+  text-align: justify;
+}
+.content-text-1 {
+  padding-right: 10px;
+  float: left;
+  width: 50%;
+}
+.content-text-2 {
+  padding-left: 10px;
+  float: right;
+  width: 50%;
+}
+.content-text-container {
+  position: relative;
+  display: inline-flex;
 }
