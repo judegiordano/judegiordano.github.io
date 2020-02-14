@@ -3,7 +3,7 @@ $dark = false
 $(document).ready(function () {
     $(".slider-input").click(function () {
         if ($dark === false) {
-            $("body").css("background-color", "black");
+            $("body").css("background-color", "#292929");
             $(".bigText").css("color", "white");
             $(".card-content").css("background-color", "#3c3737");
             $(".content-text-1, .content-text-2, p, .skills-css").css("color", "lightgrey");
