@@ -1,0 +1,43 @@
+/* * {box-sizing: border-box} */
+.skill-container {
+  padding: 20px;
+}
+
+.skill-bar-container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.skills-html, .skills-js, .skills-python, .skills-cs{
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  border-radius: 10px 0px 0px 10px;
+  transition: all ease-in-out 250ms;
+}
+
+.skills-html {
+  width: 0%;
+  background-color: #6eaa70;
+  transition: all ease-in-out 1.5s;
+}
+
+.skills-js {
+  width: 0%;
+  background-color: #5894c5;
+  transition: all ease-in-out 1.5s;
+}
+
+.skills-python{
+  width: 0%;
+  background-color: #d16860;
+  transition: all ease-in-out 1.5s;
+}
+
+.skills-cs{
+  width: 0%;
+  background-color: #808080;
+  transition: all ease-in-out 1.5s;
+}

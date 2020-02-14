@@ -5,6 +5,10 @@ body {
   transition: all ease-in-out 250ms;
 }
 
+p{
+  transition: all ease-in-out 250ms;
+}
+
 .main {
   margin: auto;
   width: 80%;
