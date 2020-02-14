@@ -5,7 +5,7 @@ body {
   transition: all ease-in-out 250ms;
 }
 
-p{
+p {
   transition: all ease-in-out 250ms;
 }
 
@@ -61,23 +61,34 @@ p{
   height: 150px;
   border-radius: 100%;
 }
-.content-text-1, .content-text-2 {
+
+.content-text-1,
+.content-text-2 {
   padding: 20px;
   margin: 0;
   transition: all ease-in-out 250ms;
   text-align: justify;
 }
+
 .content-text-1 {
   padding-right: 10px;
   float: left;
   width: 50%;
 }
+
 .content-text-2 {
   padding-left: 10px;
   float: right;
   width: 50%;
 }
+
 .content-text-container {
   position: relative;
   display: inline-flex;
+}
+
+.job-title {
+  float: right;
+  padding: 20px;
+  font-size: 50px;
 }
