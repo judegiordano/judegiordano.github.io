@@ -9,7 +9,8 @@
 .bigText {
   text-align: center;
   font-family: monospace;
-  font-family: 'Russo One', sans-serif;
+  /* font-family: 'Russo One', sans-serif; */
+  font-family: 'Armata', sans-serif;
   font-size: 25px;
   padding: 0;
   margin: 0;
