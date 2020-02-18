@@ -18,3 +18,9 @@ $(document).ready(function () {
     });
 });
 // #3c3737
+
+// <i style="font-size:24px" class="fa">&#xf09a;</i> facebook
+// <i style="font-size:24px" class="fa">&#xf09b;</i> git
+// <i style="font-size:24px" class="fa">&#xf08c;</i> linkedin
+// <i style="font-size:24px" class="fa">&#xf081;</i> twitter
+// <i style="font-size:24px" class="fa">&#xf003;</i> envelope
