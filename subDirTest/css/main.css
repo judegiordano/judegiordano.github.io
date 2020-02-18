@@ -34,7 +34,7 @@ p {
 }
 
 .card {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   padding: 0;
   margin: 0;
@@ -67,7 +67,7 @@ p {
   padding: 20px;
   margin: 0;
   transition: all ease-in-out 250ms;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .content-text-1 {
@@ -91,4 +91,5 @@ p {
   float: right;
   padding: 20px;
   font-size: 50px;
+  font-family: "Armata", sans-serif;
 }
