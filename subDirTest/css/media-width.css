@@ -2,23 +2,34 @@
   .job-title {
     font-size: 35px;
     float: none;
-    padding-top: 0%;
-    padding-bottom: 0%;
+    padding: 0;
+    margin-bottom: 0;
   }
+
   .profile-pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 250px;
+  }
+
+  .position {
+    margin-bottom: 0;
+  }
+
+  .card-content {
+    width: 95%;
   }
 
   .content-text-container {
     display: block;
   }
+
   .content-text-1,
   .content-text-2 {
     float: none;
     width: auto;
-    text-align: justify;
+    text-align: left;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
