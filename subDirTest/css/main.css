@@ -67,7 +67,7 @@ p {
   padding: 20px;
   margin: 0;
   transition: all ease-in-out 250ms;
-  /* text-align: justify; */
+  text-align: justify;
 }
 
 .content-text-1 {
@@ -92,4 +92,6 @@ p {
   padding: 20px;
   font-size: 50px;
   font-family: "Armata", sans-serif;
+  transition: none;
+  text-align: center;
 }

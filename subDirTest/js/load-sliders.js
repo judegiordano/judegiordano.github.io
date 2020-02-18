@@ -1,14 +1,14 @@
 $(document).ready(function () {
     setTimeout(function () {
         $(".skills-html").css("width", "90%")
-    }, 2000);
+    }, 1000);
     setTimeout(function () {
         $(".skills-js").css("width", "85%")
-    }, 2300);
+    }, 1200);
     setTimeout(function () {
         $(".skills-python").css("width", "80%")
-    }, 2500);
+    }, 1400);
     setTimeout(function () {
         $(".skills-cs").css("width", "75%")
-    }, 2800);
+    }, 1600);
 });
