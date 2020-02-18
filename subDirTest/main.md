@@ -1,4 +1,1 @@
-# Test ReadMe
-
-accesing:
-https://judegiordano.github.io/judegiordano.github.io/subDirTest/main.md
+[https://judegiordano.github.io/judegiordano.github.io/subDirTest/main.html](https://judegiordano.github.io/judegiordano.github.io/subDirTest/main.html)
