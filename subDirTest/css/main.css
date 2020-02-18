@@ -5,6 +5,12 @@ body {
   transition: all ease-in-out 250ms;
 }
 
+a{
+  text-decoration: none;
+  color: none;
+  color: black;
+}
+
 p {
   transition: all ease-in-out 250ms;
 }
