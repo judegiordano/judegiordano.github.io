@@ -9,6 +9,7 @@ a {
   text-decoration: none;
   color: none;
   color: black;
+  transition: all ease-in-out 250ms;
 }
 
 p {
@@ -106,4 +107,5 @@ p {
 .fa {
   padding-left: 10px;
   padding-right: 10px;
+  transition: all ease-in-out 250ms;
 }
