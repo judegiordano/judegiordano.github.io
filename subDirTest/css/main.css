@@ -5,7 +5,7 @@ body {
   transition: all ease-in-out 250ms;
 }
 
-a{
+a {
   text-decoration: none;
   color: none;
   color: black;
@@ -101,4 +101,9 @@ p {
   font-family: "Armata", sans-serif;
   transition: none;
   text-align: center;
+}
+
+.fa {
+  padding-left: 10px;
+  padding-right: 10px;
 }
