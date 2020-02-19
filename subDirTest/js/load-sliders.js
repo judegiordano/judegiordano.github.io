@@ -22,10 +22,10 @@ $(document).ready(function ($) {
         var scroll_pos_test = 150;
 
         if (y_scroll_pos > scroll_pos_test && $triggered_times == 0) {
-            $(".skills-html").css("width", "90%")
-            $(".skills-js").css("width", "85%")
-            $(".skills-python").css("width", "80%")
-            $(".skills-cs").css("width", "75%")
+            $(".skills-html").css("width", "90%").css("transition", "all ease-in-out 1.5s")
+            $(".skills-js").css("width", "85%").css("transition", "all ease-in-out 1.7s")
+            $(".skills-python").css("width", "80%").css("transition", "all ease-in-out 1.9s")
+            $(".skills-cs").css("width", "75%").css("transition", "all ease-in-out 2.1s")
             $triggered_times = 1;
         }
     });
