@@ -19,4 +19,6 @@ setInterval(function(){
     localStorage.setItem("dateTimeStamp", d);
 }, 60000);
 
+var lastStamp = localStorage.getItem("dateTimeStamp";
+
 ```
