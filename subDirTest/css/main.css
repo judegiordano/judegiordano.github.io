@@ -2,18 +2,12 @@ body {
   background-color: #f5f5f5;
   margin: 0;
   padding: 0;
-  transition: all ease-in-out 250ms;
 }
 
 a {
   text-decoration: none;
   color: none;
   color: black;
-  transition: all ease-in-out 250ms;
-}
-
-p {
-  transition: all ease-in-out 250ms;
 }
 
 .main {
@@ -30,14 +24,12 @@ p {
   color: black;
   text-align: center;
   font-family: monospace;
-  /* font-family: 'Russo One', sans-serif; */
   font-family: "Armata", sans-serif;
   font-size: 25px;
   padding: 0;
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 0;
-  transition: all ease-in-out 250ms;
 }
 
 .card {
@@ -55,7 +47,6 @@ p {
   padding: 0;
   box-shadow: 0px 0px 3px 2px lightgrey;
   border-radius: 10px;
-  transition: all ease-in-out 250ms;
   max-width: 1000px;
 }
 
@@ -73,7 +64,6 @@ p {
 .content-text-2 {
   padding: 20px;
   margin: 0;
-  transition: all ease-in-out 250ms;
   text-align: left;
 }
 
@@ -100,12 +90,10 @@ p {
   padding: 20px;
   font-size: 50px;
   font-family: "Armata", sans-serif;
-  transition: none;
   text-align: center;
 }
 
 .fa {
   padding-left: 10px;
   padding-right: 10px;
-  transition: all ease-in-out 250ms;
 }
