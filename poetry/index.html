@@ -24,10 +24,27 @@
         <section class="title-1 animate__animated animate__slower animate__delay-0s animate__fadeInDown">code</section>
         <section class="title-2 animate__animated animate__slow animate__delay-1s animate__fadeIn">as</section>
         <section class="title-3 animate__animated animate__slower animate__delay-0s animate__fadeInUp">poetry</section>
-        <code class="js-code">
+    </div>
+    <div class="container">
+        <code id="jsCode" class="js-code">
             var blah = "blahblah"
         </code>
     </div>
+    <div id="output"></div>
 </body>
+
+<script>
+    // $(document).ready(function () {
+    //     let jsCode = $('#jsCode').text();
+    //     var a = /("|'|`)(.*)("|'|`)/gmi;
+
+    //     $.each(jsCode.trim().split(' '), function (i, text) {
+    //         console.log(text);
+    //         $('#output').append(`<p class="code-word">${text}</p> `);
+    //         if(text == 'var') $('.code-word').addClass("code-var");
+    //         if(text.match(a)) $('.code-word').addClass("code-var-name");
+    //     });
+    // });
+</script>
 
 </html>
