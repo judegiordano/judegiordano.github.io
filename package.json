@@ -6,8 +6,8 @@
     "lint": "eslint --fix --ext .ts,.tsx .",
     "dev": "next dev",
     "build": "next build",
-    "export": "next build && next export -o out",
     "start": "next start",
+    "export": "npm ci && next build && next export -o out",
     "serve": "npm run export && npx serve out"
   },
   "dependencies": {
