@@ -20,6 +20,7 @@ export const EducationCard: React.FC = (): JSX.Element => {
 						<div key={index} style={{ paddingTop: 10 }}>
 							<div style={{ display: "inline", verticalAlign: "middle", paddingRight: 10 }}>
 								<Image
+									unoptimized
 									loading="eager"
 									placeholder={"blur"}
 									priority

@@ -1,6 +1,6 @@
-import grinspoonLogo from "../../public/haroldGrinspoonLogo.jpg";
-import fpiLogo from "../../public/fpiLogo.jpg";
-import questLogo from "../../public/questLogo.jpg";
+import fpiLogo from "@Public/fpiLogo.jpg";
+import grinspoonLogo from "@Public/grinsLogo.jpg";
+import questLogo from "@Public/questLogo.jpg";
 
 export const ExperienceData = [
 	{ src: grinspoonLogo, alt: "haroldGrinspoonLogo", jobTitle: "Fullstack Software Engineer", company: "Harold Grinspoon Foundation", dateRamge: "Mar 2020 - Present" },
