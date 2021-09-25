@@ -1,5 +1,5 @@
 export const BioData = {
-	headshot: "https://judegiordano.github.io/public/headshot1.jpg",
+	headshot: "headshot1.jpg",
 	name: "Jude Giordano",
 	currentRole: "Software Engineer",
 	currentCompany: "Harold Grinspoon Foundation",

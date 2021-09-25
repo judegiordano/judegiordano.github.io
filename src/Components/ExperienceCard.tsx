@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 
 import { ExperienceData } from "../Constants/Experience";
+import { ImageLoader } from "./ImageLoader";
 
 export const ExperienceCard: React.FC = (): JSX.Element => {
 	return (
@@ -20,6 +21,7 @@ export const ExperienceCard: React.FC = (): JSX.Element => {
 						<div key={index} style={{ paddingTop: 10 }}>
 							<div style={{ display: "inline", verticalAlign: "middle", paddingRight: 10 }}>
 								<Image
+									loader={ImageLoader}
 									loading="eager"
 									priority
 									width={30}

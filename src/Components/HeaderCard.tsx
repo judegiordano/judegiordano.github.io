@@ -6,12 +6,14 @@ import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 
 import { BioData } from "../Constants/Bio";
+import { ImageLoader } from "./ImageLoader";
 
 export const HeaderCard: React.FC = (): JSX.Element => {
 	return (
 		<Card style={{ marginTop: 10 }}>
 			<CardContent style={{ paddingLeft: 30, paddingRight: 30 }}>
 				<Image
+					loader={ImageLoader}
 					loading="eager"
 					priority
 					width={150}
