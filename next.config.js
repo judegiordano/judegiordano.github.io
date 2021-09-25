@@ -1,6 +1,6 @@
 module.exports = {
 	images: {
-		loader: "imgix",
+		loader: "custom",
 		domains: [
 			"github.com",
 			"judegiordano.github.io"

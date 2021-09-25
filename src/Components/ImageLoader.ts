@@ -9,5 +9,5 @@ export const ImageLoader = ({
 	width,
 	quality = 100
 }: IImageLoader): string => {
-	return `https://judegiordano.github.io/public/${src}?w=${width}&q=${quality}`;
+	return `https://judegiordano.github.io/${src}?w=${width}&q=${quality}`;
 };
