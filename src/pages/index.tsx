@@ -7,10 +7,9 @@ import Divider from "@material-ui/core/Divider";
 
 import { AppLayout } from "@Comp/Layout/AppLayout";
 import headshot1 from "../../public/headshot1.jpg";
-import elmsLogo from "../../public/elmsLogo.jpg";
-import grinspoonLogo from "../../public/haroldGrinspoonLogo.jpg";
-import fpiLogo from "../../public/fpiLogo.jpg";
-import questLogo from "../../public/questLogo.jpg";
+
+import { ExperienceCard } from "@Comp/ExperienceCard";
+import { EducationCard } from "@Comp/EducationCard";
 
 const Home: React.FC = (): JSX.Element => {
 	return (
@@ -43,111 +42,11 @@ const Home: React.FC = (): JSX.Element => {
 					</Typography>
 				</CardContent>
 			</Card>
-			<Card style={{ marginTop: 10 }}>
-				<CardContent style={{ paddingLeft: 30, paddingRight: 30 }}>
-					<Typography color="textSecondary" style={{ fontWeight: "bold" }} >
-						Experience
-					</Typography>
-					<Divider />
-					<div style={{ paddingTop: 10 }}>
-						<div style={{ display: "inline", verticalAlign: "middle", paddingRight: 10 }}>
-							<Image
-								loading="eager"
-								placeholder={"blur"}
-								priority
-								width={30}
-								height={30}
-								alt={"haroldGrinspoonLogo"}
-								src={grinspoonLogo}
-								draggable={false}
-							/>
-						</div>
-						<div style={{ display: "inline-grid", verticalAlign: "middle" }}>
-							<Typography>
-								Fulstack Software Engineer
-							</Typography>
-							<Typography color="textSecondary" style={{ fontSize: 12 }}>
-								Harold Grinspoon Foundation (Mar 2020 - Present)
-							</Typography>
-						</div>
-					</div>
-					<div style={{ paddingTop: 10 }}>
-						<div style={{ display: "inline", verticalAlign: "middle", paddingRight: 10 }}>
-							<Image
-								loading="eager"
-								placeholder={"blur"}
-								priority
-								width={30}
-								height={30}
-								alt={"fpiLogo"}
-								src={fpiLogo}
-								draggable={false}
-							/>
-						</div>
-						<div style={{ display: "inline-grid", verticalAlign: "middle" }}>
-							<Typography>
-								Software Engineer
-							</Typography>
-							<Typography color="textSecondary" style={{ fontSize: 12 }}>
-								Farm Credit Financial Partners Inc. (Oct 2019 - Mar 2020)
-							</Typography>
-						</div>
-					</div>
-					<div style={{ paddingTop: 10 }}>
-						<div style={{ display: "inline", verticalAlign: "middle", paddingRight: 10 }}>
-							<Image
-								loading="eager"
-								placeholder={"blur"}
-								priority
-								width={30}
-								height={30}
-								alt={"questLogo"}
-								src={questLogo}
-								draggable={false}
-							/>
-						</div>
-						<div style={{ display: "inline-grid", verticalAlign: "middle" }}>
-							<Typography>
-								Software Developer
-							</Typography>
-							<Typography color="textSecondary" style={{ fontSize: 12 }}>
-								Quest Global (Apr 2019 - Oct 2020)
-							</Typography>
-						</div>
-					</div>
-				</CardContent>
-			</Card>
-			<Card style={{ marginTop: 10 }}>
-				<CardContent style={{ paddingLeft: 30, paddingRight: 30 }}>
-					<Typography color="textSecondary" style={{ fontWeight: "bold" }} >
-						Education
-					</Typography>
-					<Divider />
-					<div style={{ paddingTop: 10 }}>
-						<div style={{ display: "inline", verticalAlign: "middle", paddingRight: 10 }}>
-							<Image
-								loading="eager"
-								placeholder={"blur"}
-								priority
-								width={30}
-								height={30}
-								alt={"elmsLogo"}
-								src={elmsLogo}
-								draggable={false}
-							/>
-						</div>
-						<div style={{ display: "inline-grid", verticalAlign: "middle" }}>
-							<Typography>
-								College of Our Lady of the Elms
-							</Typography>
-							<Typography color="textSecondary" style={{ fontSize: 12 }}>
-								Computer Information Techonology / Graphic Design (2015 - 2019)
-							</Typography>
-						</div>
-					</div>
-				</CardContent>
-			</Card>
 			
+			<ExperienceCard />
+			
+			<EducationCard />
+
 			<style jsx global>{`
 				.avatar {
 					border-radius: 50%;
