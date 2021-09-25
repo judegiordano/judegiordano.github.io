@@ -1,7 +1,5 @@
-import headshot from "@Public/headshot1.jpg";
-
 export const BioData = {
-	headshot: headshot,
+	headshot: "https://judegiordano.github.io/public/headshot1.jpg",
 	name: "Jude Giordano",
 	currentRole: "Software Engineer",
 	currentCompany: "Harold Grinspoon Foundation",

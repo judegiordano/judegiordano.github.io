@@ -12,9 +12,7 @@ export const HeaderCard: React.FC = (): JSX.Element => {
 		<Card style={{ marginTop: 10 }}>
 			<CardContent style={{ paddingLeft: 30, paddingRight: 30 }}>
 				<Image
-					unoptimized
 					loading="eager"
-					placeholder={"blur"}
 					priority
 					width={150}
 					height={150}
