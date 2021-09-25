@@ -1,9 +1,12 @@
 import React from "react";
 
+import { SocialsBar } from "@Comp/SocialsBar";
+
 export const AppFooter: React.FC = (): JSX.Element => {
 	return (
 		<footer style={styles.footer}>
-			<div style={{paddingTop: "10px"}}>
+			<div style={{ paddingTop: "10px" }}>
+				<SocialsBar />
 				&#169; Copyright {new Date().getFullYear()}
 			</div>
 		</footer>
@@ -18,6 +21,6 @@ const styles = {
 		borderTop: "1px solid #eaeaea",
 		textAlign: "center",
 		justifyContent: "center",
-		alignItems: "center"	
+		alignItems: "center"
 	}
 } as IStyles;
