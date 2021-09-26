@@ -38,7 +38,7 @@ export const HeaderCard: React.FC = (): JSX.Element => {
 					color: Colors.white
 				}}>
 					{BioData.name}
-					<IconButton onClick={handleOpen} style={{ color: Colors.lightGray }}>
+					<IconButton aria-label="share-website" onClick={handleOpen} style={{ color: Colors.lightGray }}>
 						<Link />
 					</IconButton>
 				</Typography>
