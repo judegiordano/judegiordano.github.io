@@ -2,6 +2,7 @@ import React from "react";
 import IconButton from "@mui/material/IconButton";
 
 import { SocialLinks } from "../Constants/Socials";
+import { Colors } from "..//Constants/Colors";
 
 export const SocialsBar: React.FC = (): JSX.Element => {
 	return (
@@ -11,6 +12,7 @@ export const SocialsBar: React.FC = (): JSX.Element => {
 					<IconButton
 						key={index}
 						aria-label={link.label}
+						style={{ color: Colors.white }}
 					>
 						<a target="_blank" rel="noreferrer" href={link.href}>
 							<link.icon />
