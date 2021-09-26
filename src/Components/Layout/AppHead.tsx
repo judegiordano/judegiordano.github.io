@@ -8,16 +8,17 @@ interface IAppHead {
 export const AppHead: React.FC<IAppHead> = ({ title }: IAppHead): JSX.Element => {
 	return (
 		<Head>
-			<title>{ title }</title>
+			<title>{title}</title>
 			<meta charSet="UTF-8" />
 			<meta name="node application" content="A simple web application" />
 			<meta name="keywords" content="HTML,CSS,XML,JavaScript" />
 			<meta name="description" content="Jude Giordano Portfolio" />
 			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			<meta name="author" content="Jude Giordano" />
-			<meta name="theme-color" content="#b29074" />
-			<meta name="apple-mobile-web-app-status-bar" content="#b29074" />
-			{/* <link rel="manifest" href="/manifest.json" /> */}
+			<meta name="theme-color" content="#282b30" />
+			<meta name="apple-mobile-web-app-status-bar" content="#282b30" />
+			<link rel="apple-touch-icon" href="https://judegiordano.github.io/logo-96.png" />
+			<link rel="manifest" href="https://judegiordano.github.io/manifest.json" />
 			<link rel="icon" href="https://judegiordano.github.io/logo.png" />
 
 			<link rel="preconnect" href="https://fonts.googleapis.com" />

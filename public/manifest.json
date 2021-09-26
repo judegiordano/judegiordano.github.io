@@ -1,0 +1,17 @@
+{
+	"name": "Jude Giordano Site",
+	"short_name": "Jude Giordano",
+	"description": "Jude Giordano Site",
+	"start_url": "/",
+	"display": "standalone",
+	"theme_color": "#282b30",
+	"background_color": "#1e2124",
+	"orientation": "portrait-primary",
+	"icons": [
+		{
+			"src": "/logo-748.png",
+			"type": "image/png",
+			"sizes": "748x748"
+		}
+	]
+}
