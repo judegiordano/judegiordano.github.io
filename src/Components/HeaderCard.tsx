@@ -11,6 +11,7 @@ import { AppImage } from "./AppImage";
 import { Colors } from "../Constants/Colors";
 import { AppDivider } from "./AppDivider";
 import { QrDialog } from "./QrDialog";
+import headerCard from "@styles/headerCard.module.css";
 
 export const HeaderCard: React.FC = (): JSX.Element => {
 
@@ -27,7 +28,7 @@ export const HeaderCard: React.FC = (): JSX.Element => {
 					src={BioData.headshot}
 					width={150}
 					height={150}
-					className="avatar"
+					className={headerCard.avatar}
 				/>
 				<Typography variant="h5" component="h2" style={{
 					paddingTop: 20,
@@ -52,11 +53,6 @@ export const HeaderCard: React.FC = (): JSX.Element => {
 					{BioData.bio}
 				</Typography>
 			</CardContent>
-			<style jsx global>{`
-				.avatar {
-					border-radius: 50%;
-				}
-			`}</style>
 			<QrDialog open={open} onClose={handleClose} />
 		</Card>
 	);
