@@ -18,7 +18,7 @@ export const AppHead: React.FC<IAppHead> = ({ title }: IAppHead): JSX.Element =>
 			<meta name="theme-color" content="#b29074" />
 			<meta name="apple-mobile-web-app-status-bar" content="#b29074" />
 			{/* <link rel="manifest" href="/manifest.json" /> */}
-			<link rel="icon" href="/favicon.ico" />
+			<link rel="icon" href="https://judegiordano.github.io/logo.png" />
 
 			<link rel="preconnect" href="https://fonts.googleapis.com" />
 			<link rel="preconnect" href="https://fonts.gstatic.com" />
