@@ -9,7 +9,7 @@
     "start": "next start",
     "export": "npm run build && next export -o out",
     "serve": "npm run export && npx serve out",
-    "deploy": "npm run export && npx gh-pages -d out"
+    "deploy": "npm run export && npx gh-pages -d out -t"
   },
   "dependencies": {
     "@emotion/react": "^11.4.1",
